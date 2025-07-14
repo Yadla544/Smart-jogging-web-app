@@ -1,0 +1,47 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em;
+  background-color: #007bff;
+  color: white;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+canvas {
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 500px;
+  overflow-y: auto;
+}
+
+#status {
+  color: #28a745;
+  font-weight: bold;
+}
+
+ul#alertList {
+  list-style: none;
+  padding: 0;
+  color: #dc3545;
+}

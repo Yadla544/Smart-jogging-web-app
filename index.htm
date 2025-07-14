@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart City Traffic Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🚦 Smart City Traffic Visualizer</h1>
+  <div class="container">
+    <canvas id="cityCanvas" width="800" height="500"></canvas>
+    <div class="sidebar">
+      <h2>Status</h2>
+      <p id="status">Initializing location...</p>
+      <h3>Live Traffic Alerts</h3>
+      <ul id="alertList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  canvas {
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+  }
+  h2, h3 {
+    color: #34495e;
+  } 
+  #status {
+    font-weight: bold;
+  }
